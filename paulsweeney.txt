@@ -1,0 +1,229 @@
+[31mdate command output:[0m
+Mon Mar 30 14:12:14 UTC 2020
+
+[31mhostname command output:[0m
+ip-172-31-12-56
+
+[31march command output:[0m
+x86_64
+
+[31muname command output:[0m
+Linux
+
+[31muptime command output:[0m
+ 14:12:14 up 21 days, 16:42,  4 users,  load average: 0.00, 0.00, 0.00
+
+[31mwhoami command output:[0m
+paulsweeney
+
+[31mwho command output:[0m
+paulsweeney pts/0        2020-03-30 14:11 (51.37.10.138)
+ainararuiz pts/1        2020-03-30 13:52 (188.141.96.141)
+thiernodiallo pts/2        2020-03-28 22:40 (92.235.49.167)
+michellemoran pts/4        2020-03-30 13:50 (88.81.109.208)
+
+[31mfinger command output:[0m
+Login          Name       Tty      Idle  Login Time   Office     Office Phone
+ainararuiz                pts/1          Mar 30 13:52 (188.141.96.141)
+michellemoran             pts/4       4  Mar 30 13:50 (88.81.109.208)
+paulsweeney               pts/0          Mar 30 14:11 (51.37.10.138)
+thiernodiallo             pts/2      1d  Mar 28 22:40 (92.235.49.167)
+
+[31mw command output:[0m
+ 14:12:14 up 21 days, 16:42,  4 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+paulswee pts/0    51.37.10.138     14:11    4.00s  0.04s  0.00s w
+ainararu pts/1    188.141.96.141   13:52   54.00s  0.16s  0.11s vi CATC.sh
+thiernod pts/2    92.235.49.167    Sat22   39:32m  0.04s  0.04s -bash
+michelle pts/4    88.81.109.208    13:50    4:45   0.11s  0.06s vim michellemoran.txt
+
+[31mtop command output:[0m
+top - 14:12:15 up 21 days, 16:42,  4 users,  load average: 0.00, 0.00, 0.00
+Tasks: 135 total,   1 running, 133 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1014424 total,   154584 free,   101284 used,   758556 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   682140 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+    1 root      20   0   37692   5704   4024 S  0.0  0.6   0:35.84 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.01 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:22.58 ksoftirqd/0
+    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+    7 root      20   0       0      0      0 S  0.0  0.0   0:29.83 rcu_sched
+    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh
+    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:08.87 watchdog/0
+   11 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   12 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns
+   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf
+   14 root      20   0       0      0      0 S  0.0  0.0   0:00.01 xenwatch
+   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus
+   17 root      20   0       0      0      0 S  0.0  0.0   0:00.46 khungtaskd
+   18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback
+   19 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd
+   20 root      39  19       0      0      0 S  0.0  0.0   0:03.52 khugepaged
+   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto
+   22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd
+   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd
+   25 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff
+   26 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md
+   27 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq
+   30 root      20   0       0      0      0 S  0.0  0.0   0:00.52 kswapd0
+   31 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 vmstat
+   32 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_mark
+   33 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea
+   49 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld
+   50 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   51 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   52 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   53 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   54 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   55 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   56 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   57 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   58 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   59 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   60 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   61 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   62 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   63 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   64 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   65 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   66 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   67 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   68 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   69 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   70 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   71 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   72 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   73 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   74 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 nvme
+   75 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0
+   76 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_0
+   77 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_1
+   78 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_1
+   83 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ipv6_addrconf
+   94 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   97 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 deferwq
+  249 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 raid5wq
+  280 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+  302 root      20   0       0      0      0 S  0.0  0.0   0:06.14 jbd2/xvda1-8
+  303 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ext4-rsv-conver
+  368 root       0 -20       0      0      0 S  0.0  0.0   0:00.48 kworker/0:1H
+  369 root      20   0   28436   2648   2284 S  0.0  0.3   5:35.60 systemd-journal
+  383 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 iscsi_eh
+  390 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_addr
+  392 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_mcast
+  396 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_nl_sa_wq
+  398 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_cm
+  399 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 iw_cm_wq
+  402 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 rdma_cm
+  407 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd
+  422 root      20   0  102964   1280   1100 S  0.0  0.1   0:00.00 lvmetad
+  459 root      20   0   42440   3736   2852 S  0.0  0.4   0:01.04 systemd-udevd
+  528 root       0 -20       0      0      0 S  0.0  0.0   0:00.05 loop0
+  532 root       0 -20       0      0      0 S  0.0  0.0   0:00.04 loop1
+  541 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 loop2
+  546 root       0 -20       0      0      0 S  0.0  0.0   0:00.02 loop3
+  747 systemd+  20   0  100320   2324   2120 S  0.0  0.2   0:01.20 systemd-timesyn
+  979 root      20   0   16120   2948   2096 S  0.0  0.3   0:00.61 dhclient
+ 1135 root      20   0  275276   5876   4440 S  0.0  0.6   2:37.89 accounts-daemon
+ 1138 root      20   0    5216    112      0 S  0.0  0.0   0:51.34 iscsid
+ 1139 root      10 -10    5716   3508   2428 S  0.0  0.3   3:54.82 iscsid
+ 1140 root      20   0   27724   2532   2252 S  0.0  0.2   0:02.32 cron
+ 1147 root      20   0  637140   3524   1336 S  0.0  0.3   0:08.74 lxcfs
+ 1149 root      20   0  218560   5164   3408 S  0.0  0.5   0:12.55 amazon-ssm-agen
+ 1153 daemon    20   0   26040   1924   1728 S  0.0  0.2   0:00.02 atd
+ 1154 message+  20   0   42896   3468   2976 S  0.0  0.3   0:03.47 dbus-daemon
+ 1181 syslog    20   0  260624   3724   2192 S  0.0  0.4   1:37.63 rsyslogd
+ 1188 root      20   0   28612   2904   2544 S  0.0  0.3   0:02.22 systemd-logind
+ 1198 root      20   0    4392   1272   1188 S  0.0  0.1   0:00.00 acpid
+ 1206 root      20   0  240380  16772   4696 S  0.0  1.7   0:45.57 snapd
+ 1219 root      20   0  279236   6832   5636 S  0.0  0.7   0:00.57 polkitd
+ 1239 root      20   0   13368    140      0 S  0.0  0.0   0:00.10 mdadm
+ 1245 root      20   0  173336  15420   7352 S  0.0  1.5   0:00.11 unattended-upgr
+ 1300 root      20   0   14468   1608   1472 S  0.0  0.2   0:00.02 agetty
+ 1309 root      20   0   14652   1460   1332 S  0.0  0.1   0:00.04 agetty
+ 1510 root      20   0   65508   4008   3292 S  0.0  0.4   1:38.40 sshd
+ 5169 root      20   0   92828   6904   5976 S  0.0  0.7   0:00.05 sshd
+ 5185 thierno+  20   0   45164   4560   3848 S  0.0  0.4   0:00.09 systemd
+ 5186 thierno+  20   0   61092   1788      0 S  0.0  0.2   0:00.00 (sd-pam)
+ 5255 thierno+  20   0   92828   4336   3392 S  0.0  0.4   0:00.16 sshd
+ 5256 thierno+  20   0   21384   5172   3236 S  0.0  0.5   0:00.04 bash
+16110 root      20   0       0      0      0 S  0.0  0.0   0:00.22 kworker/0:1
+21868 root      20   0   92828   6868   5940 S  0.0  0.7   0:00.01 sshd
+21873 michell+  20   0   45164   4640   3928 S  0.0  0.5   0:00.00 systemd
+21875 michell+  20   0   61144   1792      0 S  0.0  0.2   0:00.00 (sd-pam)
+21919 michell+  20   0   92828   3492   2568 S  0.0  0.3   0:00.01 sshd
+21920 michell+  20   0   21384   5168   3236 S  0.0  0.5   0:00.03 bash
+21968 root      20   0   92828   6868   5936 S  0.0  0.7   0:00.00 sshd
+21972 ainarar+  20   0   45164   4688   3980 S  0.0  0.5   0:00.01 systemd
+21973 ainarar+  20   0   61144   1792      0 S  0.0  0.2   0:00.00 (sd-pam)
+22018 ainarar+  20   0   92828   3592   2664 S  0.0  0.4   0:00.10 sshd
+22019 ainarar+  20   0   21384   5152   3216 S  0.0  0.5   0:00.05 bash
+22152 root      20   0       0      0      0 S  0.0  0.0   0:07.32 kworker/u30:0
+22230 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+22324 michell+  20   0   52340   8228   5484 T  0.0  0.8   0:00.02 vim
+22361 ainarar+  20   0   52972   8680   5508 S  0.0  0.9   0:00.11 vi
+22368 michell+  20   0   52584   8464   5624 S  0.0  0.8   0:00.06 vim
+22483 root      20   0   92828   6948   6020 S  0.0  0.7   0:00.01 sshd
+22489 paulswe+  20   0   45164   4640   3928 S  0.0  0.5   0:00.00 systemd
+22491 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:2
+22492 paulswe+  20   0   61144   1792      0 S  0.0  0.2   0:00.00 (sd-pam)
+22548 paulswe+  20   0   92828   3380   2456 S  0.0  0.3   0:00.00 sshd
+22549 paulswe+  20   0   21384   5104   3172 S  0.0  0.5   0:00.04 bash
+22572 root      20   0   92676   6532   5624 S  0.0  0.6   0:00.00 sshd
+22573 sshd      20   0   65508   3292   2572 S  0.0  0.3   0:00.00 sshd
+22574 paulswe+  20   0   11300   2996   2728 S  0.0  0.3   0:00.00 script.sh
+22584 paulswe+  20   0   40384   3516   2984 R  0.0  0.3   0:00.00 top
+24929 root      20   0       0      0      0 S  0.0  0.0   0:01.94 kworker/u30:1
+26286 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 xfsalloc
+26287 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 xfs_mru_cache
+
+[31mhistory command output:[0m
+  372  # variable t used for output text file
+  373  t=paulsweeney.txt 
+  374  # date command
+  375  echo -e '\e[31mdate command output:\e[0m' > $t			# using echo escape character to format text
+  376  date >> $t
+  377  echo >> $t
+  378  # hostname command
+  379  echo -e '\e[31mhostname command output:\e[0m' >> $t
+  380  hostname >> $t
+  381  echo >> $t
+  382  # arch command
+  383  echo -e  '\e[31march command output:\e[0m' >> $t
+  384  arch >> $t
+  385  echo >> $t
+  386  # uname command
+  387  echo -e '\e[31muname command output:\e[0m' >> $t
+  388  uname >> $t
+  389  echo >> $t
+  390  # uptime command
+  391  echo -e '\e[31muptime command output:\e[0m' >> $t
+  392  uptime >> $t
+  393  echo >> $t
+  394  # whoami command
+  395  echo -e '\e[31mwhoami command output:\e[0m' >> $t
+  396  whoami >> $t 
+  397  echo >> $t
+  398  # who command
+  399  echo -e '\e[31mwho command output:\e[0m' >> $t
+  400  who >> $t
+  401  echo >> $t
+  402  # finger command
+  403  echo -e '\e[31mfinger command output:\e[0m' >> $t
+  404  finger >> $t
+  405  echo >> $t
+  406  # w command
+  407  echo -e '\e[31mw command output:\e[0m' >> $t
+  408  w >> $t
+  409  echo >> $t
+  410  # top command
+  411  echo -e '\e[31mtop command output:\e[0m' >> $t
+  412  top -b -n 1 >> $t
+  413  echo >> $t 
+  414  # history command
+  415  echo -e '\e[31mhistory command output:\e[0m' >> $t
+  416  history 45  >> $t
