@@ -1,5 +1,6 @@
 #!/bin/bash
 # COMPUTER ARCHITECTURE & TECHNOLOGY CONVERGENCE 2020
+# Tea Shell Script
 # Author: Paul Sweeney
 
 echo 'Would you like a cup of tea? (y/n):'
@@ -12,13 +13,15 @@ do
 		echo "Great, I'll put the kettle on!"
 		exit
 
-	elif [[ $answer =~ ^(no|n|No|N|NO)$ ]] 
+	elif [[ $answer =~ ^(no|n|No|N|NO)$ ]]  
 		then
 		n_count=$(($n_count+1))
-		echo "Ahhh sure go on...you'll have a cup of tea? (y/n)"
+		
+		if [[ $n_count -lt 4 ]]
+			then
+			echo "Ahhh sure go on...you'll have a cup of tea? (y/n)"
 
-
-		if [[ $n_count == 4 ]]
+		elif [[ $n_count == 4 ]]
 			then
 			echo "Ok, no tea for you!"
 			exit
