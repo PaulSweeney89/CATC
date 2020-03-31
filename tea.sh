@@ -7,12 +7,12 @@ echo 'Would you like a cup of tea? (y/n):'
 n_count=0
 while read answer
 do
-	if [[ $answer == 'y' || $answer == 'Y' || $answer == 'yes' ]] 
+	if [[ "$answer" =~ ^(yes|y|Yes|Y|YES)$ ]] 
 		then
 		echo "Great, I'll put the kettle on!"
 		exit
 
-	elif [[ $answer == 'n' ]] 
+	elif [[ $answer =~ ^(no|n|No|N|NO)$ ]] 
 		then
 		n_count=$(($n_count+1))
 		echo "Ahhh sure go on...you'll have a cup of tea? (y/n)"
@@ -20,7 +20,7 @@ do
 
 		if [[ $n_count == 4 ]]
 			then
-			echo "Ok, would you like a glass of water or anything else?"
+			echo "Ok, no tea for you!"
 			exit
 		fi
 
