@@ -8,7 +8,7 @@ echo 'Would you like a cup of tea? (y/n):'
 n_count=0
 while read answer
 do
-	if [[ "$answer" =~ ^(yes|y|Yes|Y|YES)$ ]] 
+	if [[ $answer =~ ^(yes|y|Yes|Y|YES)$ ]] 
 		then
 		echo "Great, I'll put the kettle on!"
 		exit
